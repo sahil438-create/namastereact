@@ -8,7 +8,6 @@ import Contact from './Contact';
 import Resinfo from './Resinfo';
 import Restmenu from './Restmenu';
 import './App.css';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 const Grocery = lazy(() => import('./components/Grocery'));
