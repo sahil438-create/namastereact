@@ -1,0 +1,39 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is react",
+  "scripts": {
+    "start": "parcel first.html",
+    "build": "parcel build first.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil438-create/namastereact.git"
+  },
+  "keywords": [
+    "react",
+    "namste"
+  ],
+  "author": "sahil gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.10",
+    "node-html-parser": "^6.1.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
+  },
+  "bugs": {
+    "url": "https://github.com/sahil438-create/namastereact/issues"
+  },
+  "homepage": "https://github.com/sahil438-create/namastereact#readme"
+}

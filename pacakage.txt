@@ -1,0 +1,16 @@
+pacakage.json is a configuration for npm 
+npm is a pacakage manager
+
+bundler :A bundler is a tool that takes all your JavaScript code, along with any other assets like CSS or images, and combines them into a single file (or a few files) that can be served to the browser.
+
+In a package.json file, the caret (^) and tilde (~) symbols are used to define version ranges for your project dependencies.
+
+Caret (^):
+
+Allows changes that do not modify the left-most non-zero digit in the version.
+Example: ^1.2.3 allows versions from 1.2.3 up to, but not including, 2.0.0.
+Tilde (~):
+
+Allows changes that do not modify the left-most non-zero digit and the second left-most digit in the version.
+Example: ~1.2.3 allows versions from 1.2.3 up to, but not including, 1.3.0.
+In general, the caret is more permissive than the tilde because it allows for changes that include new features, while the tilde is more restrictive and only allows for bug fixes. The choice between them depends on your project's requirements and how you want to handle updates to your dependencies.
